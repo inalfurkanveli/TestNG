@@ -7,7 +7,8 @@ import org.testng.asserts.SoftAssert;
 import pages.ZeroPage;
 import utilities.ConfigReader;
 import utilities.Driver;
-import utilities.ResuableMethods;
+import utilities.ReusableMethods;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,7 +53,7 @@ public class C06_SoftAssert {
         // "Singapore (dollar)","Thailand (baht)"
 
         List<WebElement> optionsElementListesi=select.getOptions();
-        List<String> optionsStringList= ResuableMethods.stringListeCevir(optionsElementListesi);
+        List<String> optionsStringList= ReusableMethods.getElementsText(optionsElementListesi);
 
         String[] expectedArr={"Select One", "Australia (dollar)", "Canada (dollar)","Switzerland (franc)","China (yuan)","Denmark (krone)","Eurozone (euro)",
                 "Great Britain (pound)","Hong Kong (dollar)","Japan (yen)","Mexico (peso)","Norway (krone)","New Zealand (dollar)","Sweden (krona)","Singapore (dollar)","Thailand (baht)"
