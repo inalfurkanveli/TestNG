@@ -11,6 +11,7 @@ public class C03_NegativeLoginTest {
 
     @Test
     public void negativeLoginTest1() {
+         qdPage = new QdPage();
 
         Driver.getDriver().get(ConfigReader.getProperty("qdUrl"));
 

@@ -30,5 +30,5 @@ public class C01_DriverSingletonPattern {
          */
     }
 
-    Driver objeDriver= new Driver();
+  //  Driver objeDriver= new Driver();
 }
