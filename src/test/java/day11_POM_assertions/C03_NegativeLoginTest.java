@@ -9,7 +9,7 @@ import utilities.Driver;
 public class C03_NegativeLoginTest {
     QdPage qdPage = new QdPage();
 
-    @Test
+    @Test (groups = "smoke")
     public void negativeLoginTest1() {
          qdPage = new QdPage();
 
@@ -31,7 +31,7 @@ public class C03_NegativeLoginTest {
         Driver.closeDriver();
     }
 
-    @Test
+    @Test (groups = "smoke")
     public void negativeLoginTest2() {
         QdPage qdPage = new QdPage();
 

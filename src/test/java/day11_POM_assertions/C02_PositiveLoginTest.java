@@ -7,7 +7,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 public class C02_PositiveLoginTest {
-    @Test
+    @Test (groups = "smoke")
     public void positiveLoginTest(){
         //qd anasayfaya gidin
         Driver.getDriver().get(ConfigReader.getProperty("qdUrl"));

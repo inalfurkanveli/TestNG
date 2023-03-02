@@ -8,7 +8,7 @@ import utilities.Driver;
 import utilities.ResuableMethods;
 
 public class C04_FacebookLogin {
-    @Test
+    @Test (groups = "smoke")
     public void facebookTesti(){
 
         //1 - https://www.facebook.com/ adresine gidin

@@ -8,7 +8,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 public class C05_softAssert {
-    @Test
+    @Test (groups = "smoke")
     public void  amazonTest(){
         /*
         Genel olarak Test edin denirse HardAssert
