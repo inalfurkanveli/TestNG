@@ -1,4 +1,4 @@
-package day11_POM_assertions;
+package tests.day11_POM_assertions;
 
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import org.testng.Assert;

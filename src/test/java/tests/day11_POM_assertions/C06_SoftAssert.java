@@ -1,4 +1,4 @@
-package day11_POM_assertions;
+package tests.day11_POM_assertions;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;

@@ -1,4 +1,4 @@
-package day12_xmlFiles;
+package tests.day12_xmlFiles;
 
 import org.testng.annotations.Test;
 import utilities.Driver;
