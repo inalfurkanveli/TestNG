@@ -10,6 +10,11 @@ import org.openqa.selenium.safari.SafariDriver;
 import java.time.Duration;
 
 public class Driver {
+
+    private Driver(){
+
+
+    }
      /* Daha fazla kontrol imkani ve extends kullanmadan driver'a ulasmak icin
        webDriver objesini Driver class'indaki static bir method ile olusturacagiz
       Ancak getDriver() her kullanildiginda yeni bir driver olusturuyor
@@ -21,6 +26,10 @@ public class Driver {
     public static WebDriver driver;
 
     public static WebDriver getDriver(){
+
+
+
+
 
         String istenenBrowser=ConfigReader.getProperty("browser");
 
