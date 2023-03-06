@@ -10,7 +10,7 @@ import utilities.TestBaseRapor;
 public class C03_RaporluPositiveLoginTest extends TestBaseRapor {
     @Test
     public void positiveLoginTest(){
-        extentTest=extentReports.createTest("Positive Login Test","gecerli bilgilerle giris yapilabilmeli");
+        extentTest=extentReports.createTest("Positive Login Test");
         //qd anasayfaya gidin
         extentTest.info("Qualitydemy anasayfaya gidildi");
         Driver.getDriver().get(ConfigReader.getProperty("qdUrl"));

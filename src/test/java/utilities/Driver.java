@@ -12,7 +12,7 @@ import java.time.Duration;
 public class Driver {
 
     private Driver(){
-
+// Singleton Pattern icin olusturulmustur.
 
     }
      /* Daha fazla kontrol imkani ve extends kullanmadan driver'a ulasmak icin

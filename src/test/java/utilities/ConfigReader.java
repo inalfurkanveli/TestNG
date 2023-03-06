@@ -17,7 +17,6 @@ public class ConfigReader {
             System.out.println("properties dosyasi okunamadi");
         }
     }
-    public static String getProperty(String key){
-        return properties.getProperty(key);
+    public static String getProperty(String key){return properties.getProperty(key);
     }
 }

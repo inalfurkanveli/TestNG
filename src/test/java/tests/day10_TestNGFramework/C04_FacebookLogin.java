@@ -7,9 +7,10 @@ import pages.FacebookPage;
 import utilities.Driver;
 import utilities.ReusableMethods;
 import utilities.ReusableMethods;
+import utilities.TestBaseRapor;
 
-public class C04_FacebookLogin {
-    @Test (groups = "smoke")
+public class C04_FacebookLogin extends TestBaseRapor {
+    @Test
     public void facebookTesti(){
 
         //1 - https://www.facebook.com/ adresine gidin

@@ -6,9 +6,10 @@ import org.testng.asserts.SoftAssert;
 import pages.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.TestBaseRapor;
 
-public class C05_softAssert {
-    @Test (groups = "smoke")
+public class C05_softAssert  extends TestBaseRapor {
+    @Test
     public void  amazonTest(){
         /*
         Genel olarak Test edin denirse HardAssert
