@@ -10,7 +10,7 @@
 <suite name="Istenen methodlari calistirma">
     <test name="mini smoke">
        <classes>
-           <class name="day11_POM_assertions.C03_NegativeLoginTest">
+           <class name="tests.day11_POM_assertions.C03_NegativeLoginTest">
                <methods>
                    <include name="negativeLoginTest3"> </include>
                </methods>
